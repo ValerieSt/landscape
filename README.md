@@ -4,8 +4,10 @@ Script to automate google search
 
 Input: csv file with countries or company names in first column, column title 'input'
 
-Output: overview of search results 'input' plus 'AI principles'
+Search string (can be adapted): "(AI OR artificial intelligence) AND (principles OR guidelines OR recommendations) AND ("[input from csv file]")
 
-Requirements: python, pandas, googlesearch (pip install googlesearch-python), bs4, requests, numpy
+Output: overview of search results (top 30 results for each entry)
+
+Requirements: python, pandas, googlesearch (pip install googlesearch-python), bs4, requests, numpy, lxml
 
 If 'import search' from googlesearch does not work, use a virtual environment

@@ -8,7 +8,7 @@ Search string (can be adapted): "(AI OR artificial intelligence) AND (principles
 
 Output: overview of search results (top 30 results for each entry)
 
-Requirements: python, pandas, googlesearch (pip install googlesearch-python), bs4, requests, numpy, lxml
+Requirements: python, pandas, googlesearch (pip install googlesearch-python), requests, numpy, lxml
 
 If 'import search' from googlesearch does not work, use a virtual environment
 

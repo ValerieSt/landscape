@@ -11,3 +11,5 @@ Output: overview of search results (top 30 results for each entry)
 Requirements: python, pandas, googlesearch (pip install googlesearch-python), bs4, requests, numpy, lxml
 
 If 'import search' from googlesearch does not work, use a virtual environment
+
+You can use the file 'input.csv' as an example file

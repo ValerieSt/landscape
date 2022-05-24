@@ -1,6 +1,6 @@
 # landscape
 
-Script to automate google search
+'google-input-output.py' is a python script that automates a google search
 
 Input: csv file with countries or company names in first column, column title 'input'
 

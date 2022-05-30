@@ -1,6 +1,6 @@
 # landscape
 
-'google-input-output.py' is a python script that automates a google search
+'google-urls-QX.py' are python scripts to facilitate the google search for the landscape review
 
 Input: csv file with countries or company names in first column, column title 'input'. For Q4 & Q5, you need to name the file input-domains.csv and add a second column with the country domains.
 

@@ -2,14 +2,11 @@
 
 'google-input-output.py' is a python script that automates a google search
 
-Input: csv file with countries or company names in first column, column title 'input'
+Input: csv file with countries or company names in first column, column title 'input'. For Q4 & Q5, you need to name the file input-domains.csv and add a second column with the country domains.
 
-Search string (can be adapted): "(AI OR artificial intelligence) AND (principles OR guidelines OR recommendations) AND ("[input from csv file]")
+Output: urls with google queries
 
-Output: overview of search results (top 30 results for each entry)
+Requirements: python, pandas
 
-Requirements: python, pandas, googlesearch (pip install googlesearch-python), requests, numpy, lxml
+You can use the file 'input.csv' and 'input-domains.csv' as an example files for Q1-5
 
-If 'import search' from googlesearch does not work, use a virtual environment
-
-You can use the file 'input.csv' as an example file
